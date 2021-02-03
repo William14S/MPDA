@@ -1,10 +1,19 @@
 import React from 'react';
+import Navbar from './Components/navbar'
+import Dashboard from './Components/dashboard'
+import Card from './Components/card'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <Navbar>
+      <Dashboard>
+          <div className="card-container">
+      <Card>
+      <Card>
+    </div>
     </div>
   );
 }
